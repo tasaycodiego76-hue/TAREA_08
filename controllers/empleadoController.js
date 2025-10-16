@@ -6,7 +6,7 @@ const obtenerTodos = async (req, res) => {
     const [rows] = await db.query('SELECT * FROM empleados')
     res.json(rows)
   } catch (e) {
-    res.status(500).json({ error: 'Error en el servidor' })
+    res.status(500).json({ error: 'Error interno en el servidor' })
   }
 }
 
