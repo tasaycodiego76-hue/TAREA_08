@@ -1,6 +1,6 @@
 const db = require('../config/db')
 
-// Listar todos
+// Listar 
 const obtenerTodos = async (req, res) => {
   try {
     const [rows] = await db.query('SELECT * FROM empleados')
