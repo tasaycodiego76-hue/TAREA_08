@@ -7,7 +7,7 @@ const empleadoRoutes = require('./routes/empleadoRoutes')
 const app = express()
 const PORT = process.env.PORT || 3000
 
-//* CONFIGURACIÓN *
+// CONFIGURACIÓN 
 // Permisos CORS
 app.use(cors({
   origin: '*',
