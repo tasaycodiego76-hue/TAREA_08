@@ -14,7 +14,7 @@ app.use(cors({
   methods: 'GET,HEAD,PUT,PATCH,POST,DELETE',
   credentials: true
 }))
-// Middleware JSON
+// JSON
 app.use(express.json())
 
 // Rutas API
